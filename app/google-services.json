@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "834685344196",
+    "firebase_url": "https://donong-d7193.firebaseio.com",
+    "project_id": "donong-d7193",
+    "storage_bucket": "donong-d7193.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834685344196:android:7e79c7642c9e6519",
+        "android_client_info": {
+          "package_name": "com.example.jihun.dn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834685344196-cbobo42vhvmv0734mc72t09dqoiqj4gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVSRazuvbu7JngYjP272XeHLyzmlPp-rM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

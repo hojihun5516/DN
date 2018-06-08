@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jihun.dn.GroupMainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="groupName"
+        android:id="@+id/tvGroupName"
+        android:gravity="center"
+        android:textSize="50dp"
+        />
+    <ImageView
+        android:id="@+id/ivGroup"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/tvNick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_gravity="right"
+        android:textSize="30dp"
+        />
+
+        <GridLayout
+            android:orientation="horizontal"
+            android:columnCount="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:useDefaultMargins="true"
+            >
+
+            <Button
+
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:text="Picture"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btnPicture"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:text="Anony"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btnAnony"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:text="Board"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btnBoard"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:text="Game"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btnGame"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:text="GPS"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btnGPS"/>
+            <Button
+                android:visibility="invisible"
+                android:layout_width="170dp"
+                android:layout_height="100dp"
+                android:layout_rowWeight="1"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/btnSetting"
+                android:background="@drawable/setting"
+                />
+
+        </GridLayout>
+
+
+
+
+
+</LinearLayout>
